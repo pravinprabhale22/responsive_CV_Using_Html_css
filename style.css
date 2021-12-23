@@ -1,0 +1,117 @@
+.mainClass{
+    max-width: 700px;   
+    background: #fff;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;  
+    padding: 40px;
+    margin-top: 50px;
+    text-align: justify;
+}
+    
+
+body {
+    min-height: 100%;  
+    background: #eee;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    text-align: justify;
+  }
+
+  h2{
+      color: #396EB0;
+  }
+  h3{
+      color: #22577E;
+  }
+  h4{
+    color: #5584AC;
+  }
+
+  strong{
+    
+        color: #5584AC;
+      }
+
+  /* body{
+    display: flex;
+    padding-right: 100px;
+    padding-left:100px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.detailsClass{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.name{
+    display: flex;
+    flex: 5;
+}
+.email{
+    display: flex;
+    flex: 2;
+}
+
+.expClass{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+}
+
+
+.edu-skill{
+    display: flex;
+
+}
+
+.eduClass{
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+}
+
+.skillClass{
+    display: flex;
+    /* flex:1; */
+   flex-direction: column;
+    
+}
+.skillClass-h3{
+    padding-left: 40px;
+}
+
+.projClass{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+@media only screen and (max-width:500px) {
+
+    .detailsClass{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .name{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .email{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    
+
+}
